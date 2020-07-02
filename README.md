@@ -7,6 +7,10 @@ This LateX template is for **HKUers** to prepare their **Master/Doctoral Thesis*
 ## Overview
 <img src="./Others/cover_page.png" alt="cover_page" width="200"><img src="./Others/abstract_page.png" alt="abstract_page" width="200"><img src="./Others/titlepage.png" alt="title_page" width="200"><img src="./Others/table_of_contents.png" alt="table of contents" width="200">
 
+## Open the project on Overleaf
+![<img src="./Others/overleaf.png" alt="overleaf" width="200">](https://www.overleaf.com/docs?snip_uri=https://github.com/monaen/Storage/raw/master/HKU-Thesis-Template.zip)
+
+
 ## Table of Contents
 [TO DO]
 
