@@ -1,0 +1,22 @@
+\begin{declaration}
+\setcounter{page}{1}
+\addchaptertocentry{\authorshipname} % Add the declaration to the table of contents
+
+\vspace{0.6cm}
+I, \authorname, declare that this thesis titled, \enquote{\ttitle}, which is submitted in fulfillment of the requirements for the Degree of Doctor of Philosophy, represents my own work except where due acknowledgement have been made. I further declared that it has not been previously included in a thesis, dissertation, or report submitted to this University or to any other institution for a degree, diploma or other qualifications.
+
+
+\vspace{2cm} 
+\begin{flushright}
+\hfill Signed: \underline{\hspace{5cm}}\\[2em] % This prints a line for the signature
+\hfill Date: \underline{\hspace{1.5cm} \usdate\today \hspace{1.5cm}}\\ % This prints a line to write the date
+\end{flushright}
+
+% Signature
+\begin{tikzpicture}[remember picture,overlay]
+\node[xshift=-6cm,yshift=-18cm] at (current page.north east){%
+\includegraphics[width=3.6cm]{Figures/signature.png}};
+\end{tikzpicture}
+\end{declaration}
+
+

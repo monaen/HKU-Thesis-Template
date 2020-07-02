@@ -1,0 +1,47 @@
+\begin{symbols}{p{0.15\textwidth}p{0.7\textwidth}l} % Include a list of Symbols (a three column table)
+
+\multicolumn{3}{l}{\symboltitle{Global notations}}\\ \\
+$I^\mathrm{SR}$ & super-resolved light field image & --- \\
+$I^\mathrm{LR}$ & low-resolution light field image & --- \\
+$I^\mathrm{HR}$ & high-resolution light field image & --- \\
+$E^\mathrm{SR}$ & super-resolved epipolar plane image & --- \\
+$E^\mathrm{HR}$ & high-resolution epipolar plane image & --- \\ \\
+% $L$ & light field function & --- \\
+
+\multicolumn{3}{l}{\symboltitle{Chapter~1}}\\ \\
+$\theta$, $\phi$ & incoming direction expressed in term of spherical coordinates & rad \\
+$\tau$ & time & s (second)\\
+$x$,$y$ & spatial coordinates with two-plane parameterization & 1 (uint) \\
+$s$,$t$ & angular coordinates with two-plane parameterization & 1 (uint) \\
+$P$ & radiance distribution & \si{\watt\per\steradian \square{\metre} \text{\hertz}} \\
+$\Omega$ & image plane & --- \\
+$\Theta$ & parameters of the multi-layer framework & --- \\
+$\gamma_s$, $\gamma_a$ & scaling factors of spatial / angular coordinates & 1 (uint) \\
+$\mathcal{L}$ & loss function & --- \\ \\
+
+\multicolumn{3}{l}{\symboltitle{Chapter~2}}\\ \\
+$F_0$ & shallow features extracted by a single HConv layer & --- \\
+$F_\mathrm{G_d}$ & feature maps extracted by the $d^\mathrm{th}$ HRB of the GRLNet & --- \\
+$H_\mathrm{HRB}^\mathrm{n}$ & the operation of the $n^\mathrm{th}$ HRB of the SReNet & --- \\
+$H_\mathrm{AGBN}$ & the operation of the proposed aperture group batch normalization algorithm & --- \\
+$H_\mathrm{up}$ & upsampling operation on the low-resolution features & --- \\ \\
+
+
+$\ell_A$ & angular loss & --- \\
+$\ell_S$ & spatial perceptual loss & --- \\ 
+$\ell_{SA}$ & the weighted combination of $\ell_A$ and $\ell_S$& --- \\
+$f$ & the summation of all the feature maps after every activation function of VGG network & --- \\
+$g$ & learned mapping between the low-resolution and high-resolution light field images & --- \\ \\
+
+
+\multicolumn{3}{l}{\symboltitle{Chapter~3}}\\ \\
+$x$,$y$ & spatial coordinates with two-plane parameterization & 1 (uint) \\
+$s$,$t$ & angular coordinates with two-plane parameterization & 1 (uint) \\
+$\gamma_s$, $\gamma_a$ & scaling factors of spatial / angular coordinates & 1 (uint) \\
+$\ell_G$ & generator adversarial loss & --- \\
+$\phi$ & denotes the mapping of VGG network & --- \\
+$\delta$ & nearest neighbor downsampling operator & --- \\
+$\kappa$ & a Gaussian blurring kernel with a window size of $7 \times 7$ and standard deviation of 1.2 pixels & --- \\
+$\eta$ & additive noise with zero mean and unit standard deviation & --- \\ \\
+
+\end{symbols}
